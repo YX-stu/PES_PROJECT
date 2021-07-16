@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/ulyzk/Downloads/feature-calculation-template/hdl/filter_hw/feature_calculation.vhd,1593020143,vhdl,,,,feature_calculation,,,,,,,,
+C:/Users/ulyzk/Downloads/feature-calculation-template/hdl/filter_hw/label_selection.vhd,1594818307,vhdl,,,,label_selection,,,,,,,,
+C:/Users/ulyzk/Downloads/feature-calculation-template/hdl/filter_hw/ram_dp.vhd,1593020143,vhdl,,,,ram_dp,,,,,,,,
+C:/Users/ulyzk/Downloads/feature-calculation-template/hdl/filter_hw/ram_tp.vhd,1593433996,vhdl,,,,ram_tp,,,,,,,,
+C:/Users/ulyzk/Downloads/feature-calculation-template/hdl/filter_hw/region_detect.vhd,1593020143,vhdl,,,,region_detect,,,,,,,,
+C:/Users/ulyzk/Downloads/feature-calculation-template/hdl/filter_hw/rle.vhd,1594668054,vhdl,,,,rle,,,,,,,,
+C:/Users/ulyzk/Downloads/feature-calculation-template/testbenches/label_selection/src/label_selection_check_tb.vhd,1593020143,vhdl,,,,feature_label_check,,,,,,,,
+C:/Users/ulyzk/Downloads/feature-calculation-template/testbenches/region_detect/src/region_detect_tb.vhd,1594657896,vhdl,,,,region_detect_tb,,,,,,,,

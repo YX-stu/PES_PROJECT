@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../hdl/filter_hw/classify.vhd" \
+"../../../../../testbenches/classify/src/classify_tb.vhd" \
+
+# Do not sort compile order
+nosort

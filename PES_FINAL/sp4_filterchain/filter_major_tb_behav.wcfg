@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="filter_major_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="filter_major_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3791673600fs"></ZoomStartTime>
+      <ZoomEndTime time="4166673601fs"></ZoomEndTime>
+      <Cursor1Time time="4120000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/filter_major_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/data_rdy" type="logic">
+      <obj_property name="ElementShortName">data_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/result" type="logic">
+      <obj_property name="ElementShortName">result</obj_property>
+      <obj_property name="ObjectShortName">result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/result_rdy" type="logic">
+      <obj_property name="ElementShortName">result_rdy</obj_property>
+      <obj_property name="ObjectShortName">result_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/r_result_rdy" type="logic">
+      <obj_property name="ElementShortName">r_result_rdy</obj_property>
+      <obj_property name="ObjectShortName">r_result_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/write_end" type="other">
+      <obj_property name="ElementShortName">write_end</obj_property>
+      <obj_property name="ObjectShortName">write_end</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/result_lb1" type="logic">
+      <obj_property name="ElementShortName">result_lb1</obj_property>
+      <obj_property name="ObjectShortName">result_lb1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_1_inst/result" type="logic">
+      <obj_property name="ElementShortName">result</obj_property>
+      <obj_property name="ObjectShortName">result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_1_inst/addra" type="array">
+      <obj_property name="ElementShortName">addra[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_1_inst/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_1_inst/data_rdy" type="logic">
+      <obj_property name="ElementShortName">data_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_1_inst/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/result_lb2" type="logic">
+      <obj_property name="ElementShortName">result_lb2</obj_property>
+      <obj_property name="ObjectShortName">result_lb2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_2_inst/result" type="logic">
+      <obj_property name="ElementShortName">result</obj_property>
+      <obj_property name="ObjectShortName">result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_2_inst/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[0:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_2_inst/addra" type="array">
+      <obj_property name="ElementShortName">addra[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_2_inst/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_2_inst/data_rdy" type="logic">
+      <obj_property name="ElementShortName">data_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/line_buffer_2_inst/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/filter_major_inst/p_matrix" type="array">
+      <obj_property name="ElementShortName">p_matrix[2:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">p_matrix[2:0][2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/write_count_x" type="other">
+      <obj_property name="ElementShortName">write_count_x</obj_property>
+      <obj_property name="ObjectShortName">write_count_x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/write_count_y" type="other">
+      <obj_property name="ElementShortName">write_count_y</obj_property>
+      <obj_property name="ObjectShortName">write_count_y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/tb_frame_done" type="logic">
+      <obj_property name="ElementShortName">tb_frame_done</obj_property>
+      <obj_property name="ObjectShortName">tb_frame_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/save_output" type="logic">
+      <obj_property name="ElementShortName">save_output</obj_property>
+      <obj_property name="ObjectShortName">save_output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/image_out" type="array">
+      <obj_property name="ElementShortName">image_out[0:9][0:19]</obj_property>
+      <obj_property name="ObjectShortName">image_out[0:9][0:19]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/IMAGE_WIDTH" type="other">
+      <obj_property name="ElementShortName">IMAGE_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">IMAGE_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/IMAGE_HEIGHT" type="other">
+      <obj_property name="ElementShortName">IMAGE_HEIGHT</obj_property>
+      <obj_property name="ObjectShortName">IMAGE_HEIGHT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/ADDR_WIDTH" type="other">
+      <obj_property name="ElementShortName">ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/DATA_WIDTH" type="other">
+      <obj_property name="ElementShortName">DATA_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/PIXEL_COUNT" type="other">
+      <obj_property name="ElementShortName">PIXEL_COUNT</obj_property>
+      <obj_property name="ObjectShortName">PIXEL_COUNT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/PIXEL_OFFSET_WIDTH" type="other">
+      <obj_property name="ElementShortName">PIXEL_OFFSET_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">PIXEL_OFFSET_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/PIXEL_OFFSET_LINE" type="other">
+      <obj_property name="ElementShortName">PIXEL_OFFSET_LINE</obj_property>
+      <obj_property name="ObjectShortName">PIXEL_OFFSET_LINE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/test_image" type="array">
+      <obj_property name="ElementShortName">test_image[0:9][0:19]</obj_property>
+      <obj_property name="ObjectShortName">test_image[0:9][0:19]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/filter_major_tb/reference_image" type="array">
+      <obj_property name="ElementShortName">reference_image[0:9][0:19]</obj_property>
+      <obj_property name="ObjectShortName">reference_image[0:9][0:19]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Ex2/components/Arithmetische_Logikeinheit.vhd" \
+"../../../../../../Ex2/components/Mux.vhd" \
+"../../../../../../Ex2/components/Rechenwerk.vhd" \
+"../../../../../../Ex2/components/Register.vhd" \
+"../../../../../../Ex2/Rechenwerk_TB_modelsim.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,88 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port iic_rtl -pg 1 -y 660 -defaultsOSRD
+preplace port DDR -pg 1 -y 70 -defaultsOSRD
+preplace port leds_8bits -pg 1 -y 520 -defaultsOSRD
+preplace port hdmi_out_clk_0 -pg 1 -y 700 -defaultsOSRD
+preplace port hdmi_16_hsync_0 -pg 1 -y 720 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 90 -defaultsOSRD
+preplace port hdmi_16_data_e_0 -pg 1 -y 760 -defaultsOSRD
+preplace port hdmi_16_vsync_0 -pg 1 -y 740 -defaultsOSRD
+preplace portBus hdmi_16_data_0 -pg 1 -y 780 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -y 800 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -y 600 -defaultsOSRD
+preplace inst HDMI|axi_clkgen_0 -pg 1 -lvl 1 -y 782 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -y 850 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -y 670 -defaultsOSRD
+preplace inst feature_extraction_0 -pg 1 -lvl 1 -y 1120 -defaultsOSRD
+preplace inst HDMI|axi_dmac_0 -pg 1 -lvl 1 -y 1002 -defaultsOSRD
+preplace inst HDMI|axi_iic_0 -pg 1 -lvl 2 -y 712 -defaultsOSRD
+preplace inst HDMI -pg 1 -lvl 5 -y 742 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -y 980 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 5 -y 520 -defaultsOSRD
+preplace inst axi_smc_1 -pg 1 -lvl 4 -y 530 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -y 210 -defaultsOSRD
+preplace inst HDMI|axi_hdmi_tx_0 -pg 1 -lvl 2 -y 1022 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 3 -y 310 -defaultsOSRD
+preplace inst ps7_0_axi_periph_1 -pg 1 -lvl 2 -y 560 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 200 -defaultsOSRD
+preplace netloc HDMI|axi_hdmi_tx_0_hdmi_16_vsync 1 2 1 N
+preplace netloc ps7_0_axi_periph_M02_AXI 1 4 1 1650
+preplace netloc processing_system7_0_DDR 1 5 1 NJ
+preplace netloc axi_hdmi_tx_0_hdmi_out_clk 1 5 1 2820J
+preplace netloc axi_iic_0_iic2intc_irpt 1 3 3 1230 1200 NJ 1200 2770
+preplace netloc axi_dmac_0_irq 1 3 3 1270 1190 NJ 1190 2760
+preplace netloc axi_hdmi_tx_0_hdmi_16_hsync 1 5 1 2830J
+preplace netloc HDMI|axi_dmac_0_m_src_axi 1 1 2 2260 912 NJ
+preplace netloc HDMI|ps7_0_axi_periph_M04_AXI 1 0 1 N
+preplace netloc HDMI|axi_iic_0_IIC 1 2 1 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 3 1270 10 NJ 10 2760
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 3 2 1260 450 1580
+preplace netloc processing_system7_0_M_AXI_GP1 1 1 5 460 420 830J 440 NJ 440 NJ 440 2810
+preplace netloc axi_smc_M00_AXI 1 4 1 1610
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 4 850 420 NJ 420 NJ 420 2770
+preplace netloc HDMI|axi_dmac_0_irq 1 1 2 2240 902 2580J
+preplace netloc HDMI|rst_ps7_0_100M_peripheral_aresetn 1 0 2 1900 682 2230
+preplace netloc HDMI|axi_hdmi_tx_0_hdmi_out_clk 1 2 1 N
+preplace netloc ps7_0_axi_periph_M03_AXI 1 4 1 1640
+preplace netloc processing_system7_0_FCLK_RESET2_N 1 0 6 20 1230 NJ 1230 NJ 1230 NJ 1230 NJ 1230 2800
+preplace netloc HDMI|ps7_0_axi_periph_M02_AXI 1 0 2 NJ 692 N
+preplace netloc ps7_0_axi_periph_M01_AXI 1 4 1 1660
+preplace netloc axi_hdmi_tx_0_hdmi_16_vsync 1 5 1 2840J
+preplace netloc HDMI|ps7_0_axi_periph_M03_AXI 1 0 2 NJ 672 2280
+preplace netloc HDMI|ps7_0_axi_periph_M01_AXI 1 0 1 1880
+preplace netloc HDMI|axi_hdmi_tx_0_hdmi_16_data_e 1 2 1 N
+preplace netloc axi_dma_0_M_AXI_MM2S 1 3 1 1230
+preplace netloc xlconcat_0_dout 1 4 1 1670
+preplace netloc xlconstant_0_dout 1 3 1 1250
+preplace netloc HDMI|processing_system7_0_FCLK_CLK0 1 0 2 1870 872 2270
+preplace netloc ps7_0_axi_periph_1_M01_AXI 1 2 1 N
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ
+preplace netloc axi_dma_0_mm2s_introut 1 3 1 1230
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 50 900 450 410 820 510 1220J
+preplace netloc axi_hdmi_tx_0_hdmi_16_data_e 1 5 1 2850J
+preplace netloc HDMI|processing_system7_0_FCLK_CLK1 1 0 1 1890
+preplace netloc HDMI|axi_hdmi_tx_0_hdmi_16_hsync 1 2 1 N
+preplace netloc axi_smc_1_M00_AXI 1 4 1 1620
+preplace netloc ps7_0_axi_periph_1_M00_AXI 1 0 3 40 700 NJ 700 810
+preplace netloc axi_iic_0_IIC 1 5 1 2810J
+preplace netloc axi_gpio_0_GPIO 1 5 1 NJ
+preplace netloc axi_dmac_0_m_src_axi 1 3 3 1270 430 NJ 430 2760
+preplace netloc ps7_0_axi_periph_M04_AXI 1 4 1 1600
+preplace netloc axi_hdmi_tx_0_hdmi_16_data 1 5 1 2860J
+preplace netloc processing_system7_0_FCLK_CLK0 1 2 4 850 210 1240 750 1590 390 2780
+preplace netloc HDMI|axi_hdmi_tx_0_hdmi_16_data 1 2 1 N
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 0 4 30 690 440J 710 NJ 710 1220
+preplace netloc ps7_0_axi_periph_M00_AXI 1 4 1 1680
+preplace netloc processing_system7_0_FCLK_CLK1 1 4 2 1690 410 2790
+preplace netloc HDMI|axi_dmac_0_m_axis 1 1 1 N
+preplace netloc HDMI|axi_iic_0_iic2intc_irpt 1 2 1 2590
+preplace netloc HDMI|axi_clkgen_0_clk_0 1 1 1 2250
+preplace netloc processing_system7_0_FCLK_CLK2 1 0 6 10 620 440 400 840 410 1250 410 1630 400 2760
+levelinfo -pg 1 -10 260 660 1040 1430 1970 2880 -top 0 -bot 1500
+levelinfo -hier HDMI * 2070 2430 *
+"
+}
+0

@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../hdl/filter_hw/line_buffer.vhd" \
+"../../../../../hdl/filter_hw/ram_dp.vhd" \
+"../../../../../testbenches/line_buffer/src/line_buffer_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rle_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="rle_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="328333333fs"></ZoomStartTime>
+      <ZoomEndTime time="1062333334fs"></ZoomEndTime>
+      <Cursor1Time time="645333000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/rle_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/data_rdy" type="logic">
+      <obj_property name="ElementShortName">data_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/start_pos" type="array">
+      <obj_property name="ElementShortName">start_pos[5:0]</obj_property>
+      <obj_property name="ObjectShortName">start_pos[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/end_pos" type="array">
+      <obj_property name="ElementShortName">end_pos[5:0]</obj_property>
+      <obj_property name="ObjectShortName">end_pos[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/row_number" type="array">
+      <obj_property name="ElementShortName">row_number[5:0]</obj_property>
+      <obj_property name="ObjectShortName">row_number[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/UUT/run" type="array">
+      <obj_property name="ElementShortName">run[5:0]</obj_property>
+      <obj_property name="ObjectShortName">run[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/UUT/pos" type="array">
+      <obj_property name="ElementShortName">pos[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pos[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/UUT/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/UUT/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/new_run" type="logic">
+      <obj_property name="ElementShortName">new_run</obj_property>
+      <obj_property name="ObjectShortName">new_run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/UUT/sline" type="array">
+      <obj_property name="ElementShortName">sline[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sline[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/eol" type="logic">
+      <obj_property name="ElementShortName">eol</obj_property>
+      <obj_property name="ObjectShortName">eol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/eof" type="logic">
+      <obj_property name="ElementShortName">eof</obj_property>
+      <obj_property name="ObjectShortName">eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/eol_tb" type="logic">
+      <obj_property name="ElementShortName">eol_tb</obj_property>
+      <obj_property name="ObjectShortName">eol_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/eol_tb_tmp" type="logic">
+      <obj_property name="ElementShortName">eol_tb_tmp</obj_property>
+      <obj_property name="ObjectShortName">eol_tb_tmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/eof_tb" type="logic">
+      <obj_property name="ElementShortName">eof_tb</obj_property>
+      <obj_property name="ObjectShortName">eof_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/eof_tb_tmp" type="logic">
+      <obj_property name="ElementShortName">eof_tb_tmp</obj_property>
+      <obj_property name="ObjectShortName">eof_tb_tmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/y_tb" type="other">
+      <obj_property name="ElementShortName">y_tb</obj_property>
+      <obj_property name="ObjectShortName">y_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/x_tb" type="other">
+      <obj_property name="ElementShortName">x_tb</obj_property>
+      <obj_property name="ObjectShortName">x_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/ctr" type="other">
+      <obj_property name="ElementShortName">ctr</obj_property>
+      <obj_property name="ObjectShortName">ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/phase" type="logic">
+      <obj_property name="ElementShortName">phase</obj_property>
+      <obj_property name="ObjectShortName">phase</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/ROW_LENGTH" type="other">
+      <obj_property name="ElementShortName">ROW_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">ROW_LENGTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/ROW_LENGTH_WIDTH" type="other">
+      <obj_property name="ElementShortName">ROW_LENGTH_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ROW_LENGTH_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/NUMBER_OF_ROWS" type="other">
+      <obj_property name="ElementShortName">NUMBER_OF_ROWS</obj_property>
+      <obj_property name="ObjectShortName">NUMBER_OF_ROWS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/ROW_NUMBER_WIDTH" type="other">
+      <obj_property name="ElementShortName">ROW_NUMBER_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ROW_NUMBER_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/PIXEL_OFFSET" type="other">
+      <obj_property name="ElementShortName">PIXEL_OFFSET</obj_property>
+      <obj_property name="ObjectShortName">PIXEL_OFFSET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/LINE_OFFSET" type="other">
+      <obj_property name="ElementShortName">LINE_OFFSET</obj_property>
+      <obj_property name="ObjectShortName">LINE_OFFSET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/test_image0" type="array">
+      <obj_property name="ElementShortName">test_image0[0:9][0:19]</obj_property>
+      <obj_property name="ObjectShortName">test_image0[0:9][0:19]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/test_image1" type="array">
+      <obj_property name="ElementShortName">test_image1[0:9][0:19]</obj_property>
+      <obj_property name="ObjectShortName">test_image1[0:9][0:19]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/result_data0" type="array">
+      <obj_property name="ElementShortName">result_data0[0:8]</obj_property>
+      <obj_property name="ObjectShortName">result_data0[0:8]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rle_tb/result_data1" type="array">
+      <obj_property name="ElementShortName">result_data1[0:11]</obj_property>
+      <obj_property name="ObjectShortName">result_data1[0:11]</obj_property>
+   </wvobject>
+</wave_config>

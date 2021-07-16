@@ -1,0 +1,9 @@
+Exception at PC 0x00007FFBDC3581AE
+Attemped to read address 0x0000000000000000
+Printing stacktrace...
+
+[0]  [0x00007FFBDC3581AE]
+[1]  [0x00007FFBDC3581AE]
+[2] (iki_vhdl_file_endfile+0xd9) [0x00007FFBDC431289]
+[3]  [0x0000000000407E13]
+Done

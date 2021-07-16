@@ -1,0 +1,128 @@
+# do run.do
+# _run/work
+# ** Warning: (vlib-34) Library already exists at "_run/work".
+# Model Technology ModelSim DE-64 vmap 2020.1 Lib Mapping Utility 2020.01 Jan 28 2020
+# vmap work _run/work 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vcom 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 20:05:11 on May 06,2020
+# vcom -reportprogress 300 components/Mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mux
+# -- Compiling architecture behavioral of mux
+# End time: 20:05:11 on May 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vcom 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 20:05:11 on May 06,2020
+# vcom -reportprogress 300 components/Register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture behavioral of reg
+# End time: 20:05:11 on May 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vcom 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 20:05:11 on May 06,2020
+# vcom -reportprogress 300 components/Arithmetische_Logikeinheit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity alu
+# -- Compiling architecture behavioral of alu
+# End time: 20:05:11 on May 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vcom 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 20:05:11 on May 06,2020
+# vcom -reportprogress 300 components/Rechenwerk.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity data_path_struct
+# -- Compiling architecture structural of data_path_struct
+# End time: 20:05:11 on May 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim DE-64 vcom 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 20:05:11 on May 06,2020
+# vcom -reportprogress 300 Rechenwerk_TB_modelsim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Compiling entity Rechenwerk_TB
+# -- Compiling architecture behavior of Rechenwerk_TB
+# ** Warning: Rechenwerk_TB_modelsim.vhd(44): (vcom-1236) Shared variables must be of a protected type.
+# End time: 20:05:11 on May 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim Rechenwerk_TB 
+# Start time: 20:05:11 on May 06,2020
+# //  ModelSim DE-64 2020.1 Jan 28 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.rechenwerk_tb(behavior)
+# Loading work.data_path_struct(structural)
+# Loading work.alu(behavioral)
+# Loading work.reg(behavioral)
+# Loading work.mux(behavioral)
+# ** UI-Msg: (vish-4014) No objects found matching '/rechenwerk_tb/TB_done'.
+# Executing ONERROR command at macro ./run.do line 30
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 105 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 115 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 115 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 125 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 125 ns  Iteration: 0  Instance: /rechenwerk_tb
+# ** Fatal: (vsim-3340) Attempt to call ENDFILE on an unopened file.
+#    Time: 190 ns  Iteration: 0  Process: /rechenwerk_tb/line__189 File: Rechenwerk_TB_modelsim.vhd
+# Fatal error in Process line__189 at Rechenwerk_TB_modelsim.vhd line 216
+# 
+# HDL call sequence:
+# Stopped at Rechenwerk_TB_modelsim.vhd 216 Process line__189
+# 
+# Executing ONERROR command at macro ./run.do line 31
+# End time: 20:05:37 on May 06,2020, Elapsed time: 0:00:26
+# Errors: 1, Warnings: 10

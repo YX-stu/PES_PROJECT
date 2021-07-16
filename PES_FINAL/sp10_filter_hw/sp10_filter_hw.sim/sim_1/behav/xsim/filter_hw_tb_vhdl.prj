@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../hdl/filter_hw/classify.vhd" \
+"../../../../../hdl/filter_hw/converter_filter.vhd" \
+"../../../../../hdl/filter_hw/div16.vhd" \
+"../../../../../hdl/filter_hw/feature_calculation.vhd" \
+"../../../../../hdl/filter_hw/filter_chain.vhd" \
+"../../../../../hdl/filter_hw/filter_hw.vhd" \
+"../../../../../hdl/filter_hw/filter_major.vhd" \
+"../../../../../hdl/filter_hw/label_selection.vhd" \
+"../../../../../testbenches/label_selection/src/label_selection_check_tb.vhd" \
+"../../../../../hdl/filter_hw/line_buffer.vhd" \
+"../../../../../hdl/filter_hw/ram_dp.vhd" \
+"../../../../../hdl/filter_hw/ram_tp.vhd" \
+"../../../../../hdl/filter_hw/region_detect.vhd" \
+"../../../../../hdl/filter_hw/rgb2hsv.vhd" \
+"../../../../../hdl/filter_hw/rle.vhd" \
+"../../../../../testbenches/filter_hw/src/filter_hw_tb.vhd" \
+
+# Do not sort compile order
+nosort

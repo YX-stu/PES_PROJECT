@@ -1,0 +1,16 @@
+stages:
+  - build
+
+# Change the variable "template_commit" to the commit hash of the unmodified code templates. 
+# This will cause the testbenches to be run only if changes have been made to the related VHDL components. 
+# An empty value will run all testbenches.   
+test-divider:
+  stage: build
+  except:
+    - development
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd simulation
+    - vsim -c -do "../simulation/ci.tcl"
+  tags:
+    - modelsim

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="region_detect_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="region_detect_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6164095944443fs"></ZoomStartTime>
+      <ZoomEndTime time="6165852811112fs"></ZoomEndTime>
+      <Cursor1Time time="6165560000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="179"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="54" />
+   <wvobject fp_name="/region_detect_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/data_rdy" type="logic">
+      <obj_property name="ElementShortName">data_rdy</obj_property>
+      <obj_property name="ObjectShortName">data_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/pos" type="array">
+      <obj_property name="ElementShortName">pos[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pos[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/start_pos" type="array">
+      <obj_property name="ElementShortName">start_pos[5:0]</obj_property>
+      <obj_property name="ObjectShortName">start_pos[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/end_pos" type="array">
+      <obj_property name="ElementShortName">end_pos[5:0]</obj_property>
+      <obj_property name="ObjectShortName">end_pos[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/row_number" type="array">
+      <obj_property name="ElementShortName">row_number[4:0]</obj_property>
+      <obj_property name="ObjectShortName">row_number[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/new_run" type="logic">
+      <obj_property name="ElementShortName">new_run</obj_property>
+      <obj_property name="ObjectShortName">new_run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/eol" type="logic">
+      <obj_property name="ElementShortName">eol</obj_property>
+      <obj_property name="ObjectShortName">eol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/run_length_encoder/eof" type="logic">
+      <obj_property name="ElementShortName">eof</obj_property>
+      <obj_property name="ObjectShortName">eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/update_feature" type="logic">
+      <obj_property name="ElementShortName">update_feature</obj_property>
+      <obj_property name="ObjectShortName">update_feature</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/merge_feature" type="logic">
+      <obj_property name="ElementShortName">merge_feature</obj_property>
+      <obj_property name="ObjectShortName">merge_feature</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/new_feature" type="logic">
+      <obj_property name="ElementShortName">new_feature</obj_property>
+      <obj_property name="ObjectShortName">new_feature</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/update_feature_label" type="array">
+      <obj_property name="ElementShortName">update_feature_label[5:0]</obj_property>
+      <obj_property name="ObjectShortName">update_feature_label[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/merge_feature_label" type="array">
+      <obj_property name="ElementShortName">merge_feature_label[5:0]</obj_property>
+      <obj_property name="ObjectShortName">merge_feature_label[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/update_feature_start_pos" type="array">
+      <obj_property name="ElementShortName">update_feature_start_pos[5:0]</obj_property>
+      <obj_property name="ObjectShortName">update_feature_start_pos[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/update_feature_end_pos" type="array">
+      <obj_property name="ElementShortName">update_feature_end_pos[5:0]</obj_property>
+      <obj_property name="ObjectShortName">update_feature_end_pos[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/update_feature_row_number" type="array">
+      <obj_property name="ElementShortName">update_feature_row_number[4:0]</obj_property>
+      <obj_property name="ObjectShortName">update_feature_row_number[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/prev_row_run_pointer" type="other">
+      <obj_property name="ElementShortName">prev_row_run_pointer</obj_property>
+      <obj_property name="ObjectShortName">prev_row_run_pointer</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/bram_read_addr_1" type="array">
+      <obj_property name="ElementShortName">bram_read_addr_1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_read_addr_1[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/bram_runs/r_data_1" type="array">
+      <obj_property name="ElementShortName">r_data_1[22:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_1[22:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/act_row_run_pointer" type="other">
+      <obj_property name="ElementShortName">act_row_run_pointer</obj_property>
+      <obj_property name="ObjectShortName">act_row_run_pointer</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/bram_read_addr_2" type="array">
+      <obj_property name="ElementShortName">bram_read_addr_2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_read_addr_2[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/bram_prev_run" type="array">
+      <obj_property name="ElementShortName">bram_prev_run</obj_property>
+      <obj_property name="ObjectShortName">bram_prev_run</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/bram_act_run" type="array">
+      <obj_property name="ElementShortName">bram_act_run</obj_property>
+      <obj_property name="ObjectShortName">bram_act_run</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/UUT/LABEL_SELECTION_MODULE/prev_result" type="other">
+      <obj_property name="ElementShortName">prev_result</obj_property>
+      <obj_property name="ObjectShortName">prev_result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_READOUT" type="logic">
+      <obj_property name="ElementShortName">FEATURE_BRAM_READOUT</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_READOUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_RADDR" type="array">
+      <obj_property name="ElementShortName">FEATURE_BRAM_RADDR[5:0]</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_RADDR[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_LEFT_BORDER" type="array">
+      <obj_property name="ElementShortName">FEATURE_BRAM_LEFT_BORDER[5:0]</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_LEFT_BORDER[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_RIGHT_BORDER" type="array">
+      <obj_property name="ElementShortName">FEATURE_BRAM_RIGHT_BORDER[5:0]</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_RIGHT_BORDER[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_UPPER_BORDER" type="array">
+      <obj_property name="ElementShortName">FEATURE_BRAM_UPPER_BORDER[4:0]</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_UPPER_BORDER[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_LOWER_BORDER" type="array">
+      <obj_property name="ElementShortName">FEATURE_BRAM_LOWER_BORDER[4:0]</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_LOWER_BORDER[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_VALID" type="logic">
+      <obj_property name="ElementShortName">FEATURE_BRAM_VALID</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_VALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_COUNT" type="array">
+      <obj_property name="ElementShortName">FEATURE_BRAM_COUNT[5:0]</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_COUNT[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/IDLE" type="logic">
+      <obj_property name="ElementShortName">IDLE</obj_property>
+      <obj_property name="ObjectShortName">IDLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/y_tb" type="other">
+      <obj_property name="ElementShortName">y_tb</obj_property>
+      <obj_property name="ObjectShortName">y_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/x_tb" type="other">
+      <obj_property name="ElementShortName">x_tb</obj_property>
+      <obj_property name="ObjectShortName">x_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/readout" type="logic">
+      <obj_property name="ElementShortName">readout</obj_property>
+      <obj_property name="ObjectShortName">readout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/readout_count" type="other">
+      <obj_property name="ElementShortName">readout_count</obj_property>
+      <obj_property name="ObjectShortName">readout_count</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_BRAM_ADDR_WIDTH" type="other">
+      <obj_property name="ElementShortName">FEATURE_BRAM_ADDR_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_BRAM_ADDR_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/ROW_LENGTH" type="other">
+      <obj_property name="ElementShortName">ROW_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">ROW_LENGTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/ROW_LENGTH_WIDTH" type="other">
+      <obj_property name="ElementShortName">ROW_LENGTH_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ROW_LENGTH_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/NUMBER_OF_ROWS" type="other">
+      <obj_property name="ElementShortName">NUMBER_OF_ROWS</obj_property>
+      <obj_property name="ObjectShortName">NUMBER_OF_ROWS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/ROW_NUMBER_WIDTH" type="other">
+      <obj_property name="ElementShortName">ROW_NUMBER_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">ROW_NUMBER_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/PIXEL_OFFSET" type="other">
+      <obj_property name="ElementShortName">PIXEL_OFFSET</obj_property>
+      <obj_property name="ObjectShortName">PIXEL_OFFSET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/LINE_OFFSET" type="other">
+      <obj_property name="ElementShortName">LINE_OFFSET</obj_property>
+      <obj_property name="ObjectShortName">LINE_OFFSET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/test_image" type="array">
+      <obj_property name="ElementShortName">test_image[0:10][0:29]</obj_property>
+      <obj_property name="ObjectShortName">test_image[0:10][0:29]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/output_data_label_selection" type="array">
+      <obj_property name="ElementShortName">output_data_label_selection[0:9]</obj_property>
+      <obj_property name="ObjectShortName">output_data_label_selection[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/features" type="array">
+      <obj_property name="ElementShortName">features[0:3]</obj_property>
+      <obj_property name="ObjectShortName">features[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/region_detect_tb/FEATURE_TOLERANCE" type="other">
+      <obj_property name="ElementShortName">FEATURE_TOLERANCE</obj_property>
+      <obj_property name="ObjectShortName">FEATURE_TOLERANCE</obj_property>
+   </wvobject>
+</wave_config>

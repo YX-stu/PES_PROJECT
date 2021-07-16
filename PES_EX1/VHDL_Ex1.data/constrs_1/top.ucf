@@ -1,0 +1,6 @@
+# I/O-Pins
+
+NET "clk_pin" LOC = "AJ15" | IOSTANDARD = LVCMOS25; 
+NET "n_reset_pin" LOC = "AH5" | IOSTANDARD = LVTTL;
+
+

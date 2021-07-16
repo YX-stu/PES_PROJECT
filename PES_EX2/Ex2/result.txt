@@ -1,0 +1,10 @@
+alu_res_rdy: 0 status of alu: UUU/0 expected output: 0000/0
+alu_res_rdy: 0 status of alu: UUU/0 expected output: UUUU/0
+alu_res_rdy: 0 status of alu: UUU/0 expected output: UUUU/0
+alu_res_rdy: 1 status of alu: 001/1 expected output: 0100/4
+alu_res_rdy: 0 status of alu: 001/1 expected output: 0100/4
+alu_res_rdy: 1 status of alu: 100/4 expected output: 0000/0
+alu_res_rdy: 1 status of alu: 011/3 expected output: 1100/12
+alu_res_rdy: 0 status of alu: 011/3 expected output: 1100/12
+alu_res_rdy: 0 status of alu: 011/3 expected output: 1100/12
+simulation end

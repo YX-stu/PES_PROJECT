@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/ulyzk/Downloads/pes_dhl_ex2/Ex2/Rechenwerk_TB_modelsim.vhd,1588787598,vhdl,,,,rechenwerk_tb,,,,,,,,
+C:/Users/ulyzk/Downloads/pes_dhl_ex2/Ex2/components/Arithmetische_Logikeinheit.vhd,1588673535,vhdl,,,,alu,,,,,,,,
+C:/Users/ulyzk/Downloads/pes_dhl_ex2/Ex2/components/Mux.vhd,1588375249,vhdl,,,,mux,,,,,,,,
+C:/Users/ulyzk/Downloads/pes_dhl_ex2/Ex2/components/Rechenwerk.vhd,1588375249,vhdl,,,,data_path_struct,,,,,,,,
+C:/Users/ulyzk/Downloads/pes_dhl_ex2/Ex2/components/Register.vhd,1588375249,vhdl,,,,reg,,,,,,,,

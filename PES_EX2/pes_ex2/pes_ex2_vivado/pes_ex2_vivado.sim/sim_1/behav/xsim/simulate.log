@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 190 ns  Iteration: 0  Process: /Rechenwerk_TB/line__189
+  File: C:/Users/ulyzk/Downloads/pes_dhl_ex2/Ex2/Rechenwerk_TB_modelsim.vhd
+
+HDL Line: C:/Users/ulyzk/Downloads/pes_dhl_ex2/Ex2/Rechenwerk_TB_modelsim.vhd:216

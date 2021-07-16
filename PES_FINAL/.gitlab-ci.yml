@@ -1,0 +1,156 @@
+# Do not change this file or the testbenches during the PES/DHL lab. 
+
+stages:
+  - milestone-1
+  - milestone-2
+  - milestone-3
+  - milestone-4
+  - milestone-5
+
+test-rgb2hsv:
+  stage: milestone-1
+  tags:
+    - modelsim
+  except:
+    - development
+  only:
+    changes:
+      - hdl/filter_hw/rgb2hsv.vhd
+      - hdl/filter_hw/label_selection.vhd
+      - hdl/filter_hw/filter_hw.vhd
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd ./testbenches/rgb2hsv
+    - vsim -c -do "../../ci/simulate.tcl"
+    - cd ../..
+    
+test-classify:
+  stage: milestone-2
+  tags:
+    - modelsim
+  except:
+    - development
+  only:
+    changes:
+      - hdl/filter_hw/classify.vhd
+      - hdl/filter_hw/label_selection.vhd
+      - hdl/filter_hw/filter_hw.vhd
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd ./testbenches/classify
+    - vsim -c -do "../../ci/simulate.tcl"
+    - cd ../..
+
+test-line_buffer:
+  stage: milestone-2
+  tags:
+    - modelsim
+  except:
+    - development
+  only:
+    changes:
+      - hdl/filter_hw/line_buffer.vhd
+      - hdl/filter_hw/label_selection.vhd
+      - hdl/filter_hw/filter_hw.vhd
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd ./testbenches/line_buffer
+    - vsim -c -do "../../ci/simulate.tcl"
+    - cd ../..
+    
+test-filter_major:
+  stage: milestone-2
+  tags:
+    - modelsim
+  except:
+    - development
+#  dependencies:
+#    - test-line_buffer
+  only:
+    changes:
+      - hdl/filter_hw/line_buffer.vhd
+      - hdl/filter_hw/filter_major.vhd
+      - hdl/filter_hw/label_selection.vhd
+      - hdl/filter_hw/filter_hw.vhd
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd ./testbenches/filter_major
+    - vsim -c -do "../../ci/simulate.tcl"
+    - cd ../..
+    
+test-rle:
+  stage: milestone-3
+  tags:
+    - modelsim
+  except:
+    - development
+  only:
+    changes:
+      - hdl/filter_hw/rle.vhd      
+      - hdl/filter_hw/label_selection.vhd
+      - hdl/filter_hw/filter_hw.vhd
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd ./testbenches/rle
+    - vsim -c -do "../../ci/simulate.tcl"
+    - cd ../..
+    
+test-label_selection:
+  stage: milestone-4
+  tags:
+    - modelsim
+  except:
+    - development
+  only:
+    changes:
+      - hdl/filter_hw/label_selection.vhd
+      - hdl/filter_hw/filter_hw.vhd
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd ./testbenches/label_selection
+    - vsim -c -do "../../ci/simulate.tcl"
+    - cd ../..
+    
+test-region_detect:
+  stage: milestone-4
+  tags:
+    - modelsim
+  except:
+    - development  
+  dependencies:
+    - test-rle
+  only:
+    changes:
+      - hdl/filter_hw/rle.vhd    
+      - hdl/filter_hw/region_detect.vhd
+      - hdl/filter_hw/label_selection.vhd
+      - hdl/filter_hw/filter_hw.vhd
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd ./testbenches/region_detect
+    - vsim -c -do "../../ci/simulate.tcl"
+    - cd ../..
+    
+test-filter_hw:
+  stage: milestone-5
+  tags:
+    - modelsim
+  except:
+    - development  
+  dependencies:
+    - test-region_detect
+    - test-filter_major
+    - test-classify
+    - test-rgb2hsv
+  only:
+    changes:
+      - hdl/filter_hw/label_selection.vhd
+      - hdl/filter_hw/filter_hw.vhd
+      - hdl/filter_hw/region_detect.vhd
+  script:
+    - source /tools/mentor/set_modelsim_10.6b.sh
+    - cd ./testbenches/filter_hw
+    - vsim -c -do "../../ci/simulate.tcl"
+    - cd ../..
+    
+    

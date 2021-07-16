@@ -1,0 +1,230 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ulyzk/Downloads/pes_dhl_ex2/Ex2
+Ealu
+Z1 w1588673535
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 72
+R0
+Z6 8components/Arithmetische_Logikeinheit.vhd
+Z7 Fcomponents/Arithmetische_Logikeinheit.vhd
+l0
+L16 1
+VHZTRXcSPX3cX]WT6^bLWP0
+!s100 ]IcQe7I4R:WZ;HXb=d[^c1
+Z8 OP;C;2020.1;71
+32
+Z9 !s110 1588788311
+!i10b 1
+Z10 !s108 1588788311.000000
+Z11 !s90 -reportprogress|300|components/Arithmetische_Logikeinheit.vhd|
+Z12 !s107 components/Arithmetische_Logikeinheit.vhd|
+!i113 1
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 HZTRXcSPX3cX]WT6^bLWP0
+!i122 72
+l58
+L29 97
+VjMUbc[VYe82fGOf>h05kY0
+!s100 UOjg7zP^fSAKW@MKWmQWH1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+Edata_path_struct
+Z14 w1588375249
+R2
+R3
+R4
+R5
+!i122 73
+R0
+Z15 8components/Rechenwerk.vhd
+Z16 Fcomponents/Rechenwerk.vhd
+l0
+Z17 L17 1
+V]BDHdB]jzSZ`HZ<E87<O`3
+!s100 ]<BQl2@:[X;Ic7Li`T<ld1
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|components/Rechenwerk.vhd|
+Z19 !s107 components/Rechenwerk.vhd|
+!i113 1
+R13
+Astructural
+R2
+R3
+R4
+R5
+DEx4 work 16 data_path_struct 0 22 ]BDHdB]jzSZ`HZ<E87<O`3
+!i122 73
+l90
+L36 135
+V]VzjCeiD3e3eX5]FMkP7E0
+!s100 E2^UCF8lXUlRQWgkj;h7H0
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+Emux
+R14
+R2
+R3
+R4
+R5
+!i122 70
+R0
+Z20 8components/Mux.vhd
+Z21 Fcomponents/Mux.vhd
+l0
+R17
+VNB6k]0`3j]B<T3DPk5<9J0
+!s100 jPLMLBIkH<?4LKZ@9BV5D3
+R8
+32
+R9
+!i10b 1
+R10
+Z22 !s90 -reportprogress|300|components/Mux.vhd|
+Z23 !s107 components/Mux.vhd|
+!i113 1
+R13
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 3 mux 0 22 NB6k]0`3j]B<T3DPk5<9J0
+!i122 70
+l34
+L32 19
+VD4Si>dkGn;GWS9FH]o2W[2
+!s100 434V1ScKcPYc==B<Nm@0P1
+R8
+32
+R9
+!i10b 1
+R10
+R22
+R23
+!i113 1
+R13
+Erechenwerk_tb
+Z24 w1588788294
+Z25 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R2
+R3
+Z26 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R4
+R5
+!i122 74
+R0
+Z27 8Rechenwerk_TB_modelsim.vhd
+Z28 FRechenwerk_TB_modelsim.vhd
+l0
+L19 1
+VPGZPNliFAb4UlmCDV_ZPQ2
+!s100 X]bBW`E`m6BB1<o1_A]g21
+R8
+32
+R9
+!i10b 1
+R10
+Z29 !s90 -reportprogress|300|Rechenwerk_TB_modelsim.vhd|
+Z30 !s107 Rechenwerk_TB_modelsim.vhd|
+!i113 1
+R13
+Abehavior
+R25
+R2
+R3
+R26
+R4
+R5
+Z31 DEx4 work 13 rechenwerk_tb 0 22 PGZPNliFAb4UlmCDV_ZPQ2
+!i122 74
+l74
+Z32 L24 301
+V`hZ;EdReHOC@@:mR9[?X21
+!s100 :gzJP7JLSF7AOgMgmc3DX2
+R8
+32
+R9
+!i10b 1
+R10
+R29
+R30
+!i113 1
+R13
+Ereg
+R14
+R2
+R3
+R4
+R5
+!i122 71
+R0
+Z33 8components/Register.vhd
+Z34 Fcomponents/Register.vhd
+l0
+R17
+Vb@Q5ncfiGA;MDBc01HXad1
+!s100 fC4AoF^;5S`EW4ZNZ^A7Y3
+R8
+32
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|components/Register.vhd|
+Z36 !s107 components/Register.vhd|
+!i113 1
+R13
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 3 reg 0 22 b@Q5ncfiGA;MDBc01HXad1
+!i122 71
+l38
+L36 16
+V>6a_5@>WRNO=Iff;BEco^3
+!s100 kBX07^d6K1F6_3n6dgaeU3
+R8
+32
+R9
+!i10b 1
+R10
+R35
+R36
+!i113 1
+R13

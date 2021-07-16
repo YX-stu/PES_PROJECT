@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../pes_dhl_ex4/VHDL_Ex3.data/sources/div16.vhd" \
+"../../../../../../hdl/filter_hw/rgb2hsv.vhd" \
+"../../../../../../testbenches/rgb2hsv/src/rgb2hsv_tb.vhd" \
+
+# Do not sort compile order
+nosort

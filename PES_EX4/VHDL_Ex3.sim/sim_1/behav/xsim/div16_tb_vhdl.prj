@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VHDL_Ex3.data/sources/div16.vhd" \
+"../../../../VHDL_Ex3.data/sources/div16_tb.vhd" \
+
+# Do not sort compile order
+nosort
